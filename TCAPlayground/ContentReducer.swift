@@ -13,7 +13,7 @@ struct Item: Equatable {
   var price: Int = 0
 }
 
-public struct ContentReducer: ReducerProtocol {
+public struct ContentReducer: Reducer {
   public struct State: Equatable {
     var item: Item = .init()
   }
@@ -23,7 +23,9 @@ public struct ContentReducer: ReducerProtocol {
     case updateItemPrice(Int)
   }
   
-  public var body: some ReducerProtocol<State, Action> {
+  public var body: some Reducer<State, Action> {
+    
+    
     Reduce { state, action in
       switch action {
       case let .updateItemName(name):

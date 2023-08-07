@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194534EC2A812EBB00E755BB /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194534EB2A812EBB00E755BB /* AddContactFeature.swift */; };
+		194534F02A812FF000E755BB /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194534EF2A812FF000E755BB /* AddContactView.swift */; };
 		1980A7DD2A7155140009DE47 /* TCAPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980A7DC2A7155140009DE47 /* TCAPlaygroundApp.swift */; };
 		1980A7DF2A7155140009DE47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980A7DE2A7155140009DE47 /* ContentView.swift */; };
 		1980A7E12A7155150009DE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1980A7E02A7155150009DE47 /* Assets.xcassets */; };
@@ -16,6 +18,13 @@
 		1980A7FA2A7155150009DE47 /* TCAPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980A7F92A7155150009DE47 /* TCAPlaygroundUITestsLaunchTests.swift */; };
 		1980A8082A7155740009DE47 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1980A8072A7155740009DE47 /* ComposableArchitecture */; };
 		1980A80A2A716A210009DE47 /* ContentReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980A8092A716A210009DE47 /* ContentReducer.swift */; };
+		198570102A75565E00F90563 /* AView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1985700F2A75565E00F90563 /* AView.swift */; };
+		198570122A75567C00F90563 /* AReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198570112A75567C00F90563 /* AReducer.swift */; };
+		198570162A7557B300F90563 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198570152A7557B300F90563 /* UserModel.swift */; };
+		198570182A75589300F90563 /* BView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198570172A75589300F90563 /* BView.swift */; };
+		1985701A2A75595000F90563 /* BReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198570192A75595000F90563 /* BReducer.swift */; };
+		19A63F602A81271F005CCAAC /* ContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A63F5F2A81271F005CCAAC /* ContactFeature.swift */; };
+		19A63F622A8127C1005CCAAC /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A63F612A8127C1005CCAAC /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		194534EB2A812EBB00E755BB /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		194534EF2A812FF000E755BB /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		1980A7D92A7155140009DE47 /* TCAPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1980A7DC2A7155140009DE47 /* TCAPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPlaygroundApp.swift; sourceTree = "<group>"; };
 		1980A7DE2A7155140009DE47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		1980A7F72A7155150009DE47 /* TCAPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPlaygroundUITests.swift; sourceTree = "<group>"; };
 		1980A7F92A7155150009DE47 /* TCAPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1980A8092A716A210009DE47 /* ContentReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentReducer.swift; sourceTree = "<group>"; };
+		1985700F2A75565E00F90563 /* AView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AView.swift; sourceTree = "<group>"; };
+		198570112A75567C00F90563 /* AReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AReducer.swift; sourceTree = "<group>"; };
+		198570152A7557B300F90563 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		198570172A75589300F90563 /* BView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BView.swift; sourceTree = "<group>"; };
+		198570192A75595000F90563 /* BReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BReducer.swift; sourceTree = "<group>"; };
+		19A63F5F2A81271F005CCAAC /* ContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFeature.swift; sourceTree = "<group>"; };
+		19A63F612A8127C1005CCAAC /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194534ED2A812FCA00E755BB /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				19A63F5F2A81271F005CCAAC /* ContactFeature.swift */,
+				19A63F612A8127C1005CCAAC /* ContactView.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		194534EE2A812FD500E755BB /* AddContact */ = {
+			isa = PBXGroup;
+			children = (
+				194534EB2A812EBB00E755BB /* AddContactFeature.swift */,
+				194534EF2A812FF000E755BB /* AddContactView.swift */,
+			);
+			path = AddContact;
+			sourceTree = "<group>";
+		};
 		1980A7D02A7155140009DE47 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +134,8 @@
 		1980A7DB2A7155140009DE47 /* TCAPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				19A63F5E2A8126F1005CCAAC /* TCAContact */,
+				1985700B2A7555D200F90563 /* KeyboardIssue */,
 				1980A7DC2A7155140009DE47 /* TCAPlaygroundApp.swift */,
 				1980A7DE2A7155140009DE47 /* ContentView.swift */,
 				1980A8092A716A210009DE47 /* ContentReducer.swift */,
@@ -130,6 +168,51 @@
 				1980A7F92A7155150009DE47 /* TCAPlaygroundUITestsLaunchTests.swift */,
 			);
 			path = TCAPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		1985700B2A7555D200F90563 /* KeyboardIssue */ = {
+			isa = PBXGroup;
+			children = (
+				198570142A7557A300F90563 /* Model */,
+				198570132A75579E00F90563 /* B */,
+				1985700E2A75564200F90563 /* A */,
+			);
+			path = KeyboardIssue;
+			sourceTree = "<group>";
+		};
+		1985700E2A75564200F90563 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				198570112A75567C00F90563 /* AReducer.swift */,
+				1985700F2A75565E00F90563 /* AView.swift */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		198570132A75579E00F90563 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				198570172A75589300F90563 /* BView.swift */,
+				198570192A75595000F90563 /* BReducer.swift */,
+			);
+			path = B;
+			sourceTree = "<group>";
+		};
+		198570142A7557A300F90563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				198570152A7557B300F90563 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19A63F5E2A8126F1005CCAAC /* TCAContact */ = {
+			isa = PBXGroup;
+			children = (
+				194534EE2A812FD500E755BB /* AddContact */,
+				194534ED2A812FCA00E755BB /* Contact */,
+			);
+			path = TCAContact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A63F602A81271F005CCAAC /* ContactFeature.swift in Sources */,
+				198570122A75567C00F90563 /* AReducer.swift in Sources */,
 				1980A7DF2A7155140009DE47 /* ContentView.swift in Sources */,
+				194534F02A812FF000E755BB /* AddContactView.swift in Sources */,
+				19A63F622A8127C1005CCAAC /* ContactView.swift in Sources */,
+				194534EC2A812EBB00E755BB /* AddContactFeature.swift in Sources */,
+				198570182A75589300F90563 /* BView.swift in Sources */,
 				1980A80A2A716A210009DE47 /* ContentReducer.swift in Sources */,
+				198570102A75565E00F90563 /* AView.swift in Sources */,
+				1985701A2A75595000F90563 /* BReducer.swift in Sources */,
+				198570162A7557B300F90563 /* UserModel.swift in Sources */,
 				1980A7DD2A7155140009DE47 /* TCAPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TCAPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 9685R8WZ6J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TCAPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 9685R8WZ6J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -596,7 +690,7 @@
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.0;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

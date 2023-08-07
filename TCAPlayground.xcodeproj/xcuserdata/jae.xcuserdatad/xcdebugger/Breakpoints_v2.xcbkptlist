@@ -14,8 +14,8 @@
             filePath = "TCAPlayground/ContentReducer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "TCAPlayground/ContentReducer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -39,17 +39,327 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "73B1A4A0-9D78-477A-B604-3ACCCC0216EB"
+            uuid = "6B7F62AC-A001-4D4C-A47D-37F1CCEF259D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TCAPlayground/ContentReducer.swift"
+            filePath = "TCAPlayground/KeyboardIssue/A/AView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "State"
-            landmarkType = "14">
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D330536-E43D-4D6E-B9C7-377D7DB3A64F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9E88EEB-00E1-4199-835F-164E2735B9B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA5E49D6-2AED-412A-A66F-C5134C4EA967"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPlayground/TCAContact/Contact/ContactView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F165CAD-156B-4BBC-A346-F97D8D331B18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPlayground/TCAContact/AddContact/AddContactFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "reduce(into:action:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F165CAD-156B-4BBC-A346-F97D8D331B18 - 3ee30f108282b815"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.AddContactFeature.reduce(into: inout TCAPlayground.AddContactFeature.State, action: TCAPlayground.AddContactFeature.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPlayground.AddContactFeature.Action&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/AddContact/AddContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "3F165CAD-156B-4BBC-A346-F97D8D331B18 - 53ac2deff9f8e54a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPlayground.AddContactFeature.Action&gt;) async -&gt; () in TCAPlayground.AddContactFeature.reduce(into: inout TCAPlayground.AddContactFeature.State, action: TCAPlayground.AddContactFeature.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPlayground.AddContactFeature.Action&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/AddContact/AddContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3F165CAD-156B-4BBC-A346-F97D8D331B18 - 551994ba6259781f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPlayground.AddContactFeature.Action&gt;) async -&gt; () in TCAPlayground.AddContactFeature.reduce(into: inout TCAPlayground.AddContactFeature.State, action: TCAPlayground.AddContactFeature.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPlayground.AddContactFeature.Action&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/AddContact/AddContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "3F165CAD-156B-4BBC-A346-F97D8D331B18 - c6071450fb54bceb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPlayground.AddContactFeature.Action&gt;) async -&gt; () in TCAPlayground.AddContactFeature.reduce(into: inout TCAPlayground.AddContactFeature.State, action: TCAPlayground.AddContactFeature.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPlayground.AddContactFeature.Action&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/AddContact/AddContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "3F165CAD-156B-4BBC-A346-F97D8D331B18 - 22c1524366aafcf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPlayground.AddContactFeature.Action&gt;) async -&gt; () in TCAPlayground.AddContactFeature.reduce(into: inout TCAPlayground.AddContactFeature.State, action: TCAPlayground.AddContactFeature.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPlayground.AddContactFeature.Action&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/AddContact/AddContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "addContact"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - 3ab5f9c406f4c267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.addContact.getter : Swift.Optional&lt;TCAPlayground.AddContactFeature.State&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - e69649840bd77e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.addContact.setter : Swift.Optional&lt;TCAPlayground.AddContactFeature.State&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - 80b477d886b30760"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.addContact.modify : Swift.Optional&lt;TCAPlayground.AddContactFeature.State&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - 2e68a604927f290c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.addContact.modify : Swift.Optional&lt;TCAPlayground.AddContactFeature.State&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - efcec747d6091787"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.$addContact.getter : ComposableArchitecture.PresentationState&lt;TCAPlayground.AddContactFeature.State&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - efcec747d6091787"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.$addContact.setter : ComposableArchitecture.PresentationState&lt;TCAPlayground.AddContactFeature.State&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - a5d1a6906076a28f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.$addContact.modify : ComposableArchitecture.PresentationState&lt;TCAPlayground.AddContactFeature.State&gt;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - d528f5a0374c1a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.$addContact.modify : ComposableArchitecture.PresentationState&lt;TCAPlayground.AddContactFeature.State&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "F8B12D06-E833-4A5D-ACA7-553ABC5026DF - 6752171c828949f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCAPlayground.ContactFeature.State.init() -&gt; TCAPlayground.ContactFeature.State"
+                  moduleName = "TCAPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jae/root/src/swift/TCAPlayground/TCAPlayground/TCAContact/Contact/ContactFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9D813A4-8C2F-43B2-ADF0-41ABE3A1FBE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPlayground/TCAContact/Contact/ContactView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
