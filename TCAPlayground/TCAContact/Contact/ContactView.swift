@@ -18,6 +18,7 @@ struct ContactView: View {
           ForEach(viewStore.state) { contact in
             Text(contact.name)
           }
+          
         }
         .navigationTitle("Contacts")
         .toolbar {
