@@ -35,7 +35,11 @@ struct AddContactFeature: Reducer {
   func reduce(into state: inout State, action: Action) -> Effect<Action> {
     switch action {
     case .cancelButtonTapped:
-      return .send(.delegate(.cancel))
+      return .run { send in
+        await send(.delegate(.cancel))
+//        await self.dismiss()
+      }
+//      return .send(.delegate(.cancel))
 //      return .run { _ in await self.dismiss() }
       
     case .saveButtonTapped:
@@ -44,7 +48,7 @@ struct AddContactFeature: Reducer {
         //Mutable capture of 'inout' parameter 'state' is not allowed in concurr
 //        await send(.delegate(.saveContact(state.contact)))
         await send(.delegate(.saveContact(contact)))
-        await self.dismiss()
+//        await self.dismiss()
       }
       
     case let .setName(name):

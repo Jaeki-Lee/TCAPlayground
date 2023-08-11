@@ -13,22 +13,35 @@ struct ContactView: View {
   
   var body: some View {
     NavigationStack {
-      WithViewStore(self.store, observe: \.contacts) { viewStore in
+      WithViewStore(self.store, observe: { $0 }) { viewStore in
         List {
-          ForEach(viewStore.state) { contact in
-            Text(contact.name)
+          ForEach(viewStore.state.contacts) { contact in
+            HStack {
+              Text(contact.name)
+              Spacer()
+              Button {
+                viewStore.send(.deleteButtonTapped(id: contact.id))
+              } label: {
+                Image(systemName: "trash")
+                  .foregroundColor(.red)
+              }
+
+            }
           }
-          
         }
         .navigationTitle("Contacts")
         .toolbar {
           ToolbarItem {
-            Button {
-              viewStore.send(.addButtonTapped)
-            } label: {
-              Image(systemName: "plus")
-            }
-            
+//            Button {
+//              viewStore.send(.addButtonTapped)
+//            } label: {
+//              Image(systemName: "plus")
+//            }
+            Image(systemName: "plus")
+              .onTapGesture {
+                print("plus button tapped")
+                viewStore.send(.addButtonTapped)
+              }
           }
         }
         .sheet(
@@ -41,6 +54,12 @@ struct ContactView: View {
             AddContactView(store: addContactStore)
           }
         }
+        .alert(
+          store: self.store.scope(
+            state: \.$alert,
+            action: { .alert($0) }
+          )
+        )
       }
     }
   }
